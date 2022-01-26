@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="super"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-25 07:57:04 PM"/>
+        <attribute name="created" value="c3VwZXI7REVTS1RPUC0ySzNRT1FNOzIwMjItMDEtMjQ7MDk6NTY6MDIgUE07MjkxNQ=="/>
+        <attribute name="edited" value="c3VwZXI7REVTS1RPUC0ySzNRT1FNOzIwMjItMDEtMjU7MDc6NTc6MDQgUE07MTszMDI1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="lastname"/>
+            <input variable="Score1"/>
+            <input variable="Score2"/>
+            <assign variable="A" expression="(S1 + S2)/2"/>
+            <output expression="s1 = Score1" newline="True"/>
+            <output expression="S2 = Score2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
