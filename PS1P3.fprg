@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="super"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-25 08:07:56 PM"/>
+        <attribute name="created" value="c3VwZXI7REVTS1RPUC0ySzNRT1FNOzIwMjItMDEtMjU7MDg6MDY6MTIgUE07MjkxMQ=="/>
+        <attribute name="edited" value="c3VwZXI7REVTS1RPUC0ySzNRT1FNOzIwMjItMDEtMjU7MDg6MDc6NTYgUE07MTszMDI4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="gallons"/>
+            <input variable="milestrav"/>
+            <assign variable="mpg" expression="gallons/milestrav"/>
+            <output expression="mpg = miles/gallons" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
